@@ -1,0 +1,60 @@
+/* Fuentes */
+
+/* i have bad news ... Space mono */
+/* 404 not found ... Inconsolata */
+
+/* 
+colores:
+gris1 titulos, botón
+gris2 texto
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Space Mono', 'Inconsolata', 'Montserrat';
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 15% 75% 10%;
+    background-color: salmon;
+ 
+}
+
+header{
+    font-family: 'Inconsolata';
+    font-weight: 700;
+    font-size: 2.4rem;
+    background-color: red;
+}
+
+main{
+display: flex;
+}
+
+/* main .leftCont, .rightCont {
+
+} */
+
+main .leftCont-img{
+    width: 549px;
+    height: 447px;
+}
+
+/* main .leftCont{
+  background-color:whi;  
+} */
+
+
+
+
+footer{
+    background-color: blue;
+}
+
