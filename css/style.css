@@ -28,33 +28,43 @@ html {
 }
 
 header{
+    display: flex;
+    align-items: center;
     font-family: 'Inconsolata';
     font-weight: 700;
     font-size: 2.4rem;
     background-color: red;
 }
-
-main{
-display: flex;
+header p {
+    color: #333333;
 }
-
-/* main .leftCont, .rightCont {
-
-} */
-
+main {
+    display: flex;
+}
 main .leftCont-img{
     width: 549px;
     height: 447px;
 }
-
-/* main .leftCont{
-  background-color:whi;  
-} */
-
-
-
-
-footer{
-    background-color: blue;
+.rightCont .title1 {
+    font-family: 'Space Mono';
+    font-size: 6.4rem;
+    font-weight: 700;
+    color: #333333;
+}
+.rightCont .text1 {
+    font-family: 'Space Mono';
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #4F4F4F;
 }
 
+footer{
+    text-align: center;
+    background-color: blue;
+}
+footer p {
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #BDBDBD;
+}
